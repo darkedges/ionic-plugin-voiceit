@@ -1,0 +1,21 @@
+{
+    "name": "ionic-plugin-voiceit",
+    "version": "0.0.1",
+    "description": "Ionic VoiceIt native plugin",
+    "main": "src/index.js",
+    "types": "src/index.d.ts",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "ionic",
+      "voiceit"
+    ],
+    "author": "DarkEdges",
+    "license": "ISC",
+    "devDependencies": {
+      "@angular/core": "^4.3.2",
+      "@ionic-native/core": "^4.1.0",
+      "tsc": "^1.20150623.0"
+    }
+  }
