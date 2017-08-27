@@ -29,7 +29,7 @@ export interface APIDetails {
     plugin: 'cordova-plugin-voiceit',
     pluginRef: 'VoiceIt',
     repo: 'https://github.com/voiceittech/cordova-plugin-voiceit',
-    platforms: ['Android', 'iOS']
+    platforms: ['Android', 'iOS', 'Browser']
 })
 @Injectable()
 export class VoiceIt extends IonicNativePlugin {
