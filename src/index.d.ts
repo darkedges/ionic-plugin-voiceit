@@ -1,5 +1,7 @@
 import { IonicNativePlugin } from '@ionic-native/core';
-import { APIDetails, ContentLanguage, Enrolment } from './index';
+import { APIDetails, ContentLanguage, Enrolment } from './interfaces'
+
+export { APIDetails, ContentLanguage, Enrolment } from './interfaces'
 
 export declare class VoiceIt extends IonicNativePlugin {
     getUser(options: APIDetails): Promise<any>;
