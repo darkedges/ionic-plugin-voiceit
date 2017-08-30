@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Cordova, IonicNativePlugin, Plugin } from '@ionic-native/core';
-import { APIDetails, ContentLanguage, Enrolment } from './interfaces'
+import { APIDetails, ContentLanguage, Enrollment } from './interfaces';
 
 @Plugin({
     pluginName: 'VoiceIt',
@@ -37,7 +37,7 @@ export class VoiceIt extends IonicNativePlugin {
     }
 
     @Cordova()
-    deleteEnrollment(options: Enrolment): Promise<any> {
+    deleteEnrollment(options: Enrollment): Promise<any> {
         return;
     }
 

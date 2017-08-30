@@ -17,6 +17,6 @@
   /**
     * DeleteEnrollment options
     */
-  export interface Enrolment extends APIDetails {
+  export interface Enrollment extends APIDetails {
     enrollmentId: string;
   }
