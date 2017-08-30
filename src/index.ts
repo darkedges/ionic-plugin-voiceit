@@ -54,7 +54,7 @@ export class VoiceIt extends IonicNativePlugin {
     }
 
     @Cordova()
-    createEnrollment(options: Enrollment): Promise<any> {
+    createEnrollment(options: ContentLanguage): Promise<any> {
         return;
     }
 
