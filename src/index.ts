@@ -14,13 +14,13 @@ export interface APIDetails {
   * CreateEnrollment options
   */
   export interface ContentLanguage extends APIDetails {
-    contentLanguage: string;
+    contentLanguage?: string;
 }
 
 /**
   * DeleteEnrollment options
   */
-  export interface Enrollment extends APIDetails {
+  export interface Enrolment extends APIDetails {
     enrollmentId: string;
 }
 
@@ -59,7 +59,7 @@ export class VoiceIt extends IonicNativePlugin {
     }
 
     @Cordova()
-    deleteEnrollment(options: Enrollment): Promise<any> {
+    deleteEnrollment(options: Enrolment): Promise<any> {
         return;
     }
 
